@@ -1,0 +1,16 @@
+{
+  "name":"twitter-logo-return",
+  "description":"twitter:@pi_mannokanzumee",
+  "version":"1.2.2",
+  "manifest_version":3,
+  "permissions": ["activeTab"],
+
+  "content_scripts":[
+    {
+      "matches":["https://twitter.com/*", "https://*.twitter.com/*", "https://*.x.com/*"],
+      "js":["fuck.js"],
+      "run_at": "document_start",
+      "all_frames":false
+    }
+  ]
+}
