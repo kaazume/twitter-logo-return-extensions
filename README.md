@@ -1,2 +1,2 @@
-# twitter-logo-return-extensions
-twitter-logo-return-extensions
+# TwitterのXを取りに戻す拡張機能です
+twitter:pi_mannnokanzumee
